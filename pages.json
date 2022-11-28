@@ -1,0 +1,90 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/oprah/oprah",
+			"style": {
+				"navigationBarTitleText": "名嘴",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		}
+	],
+	"subPackages": [{
+		"root": "packageA",
+		"pages": [{
+			"path": "circuit/circuit",
+			"style": {
+				"navigationBarTitleText": "分包",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		}]
+	}],
+
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#F9484B",
+		"backgroundColor": "#fff",
+		"borderStyle": "black",
+		"list": [{
+				"text": "首页",
+				"iconPath": "static/images/home_tabbar.png",
+				"selectedIconPath": "static/images/home_tabbarX.png",
+				"pagePath": "pages/home/home"
+			},
+			{
+				"text": "消息",
+				"iconPath": "static/images/news_tabbar.png",
+				"selectedIconPath": "static/images/news_tabbarX.png",
+				"pagePath": "pages/news/news"
+			},
+			{
+				"text": "名嘴",
+				"iconPath": "static/images/oprah_tabbar.png",
+				"selectedIconPath": "static/images/oprah_tabbarX.png",
+				"pagePath": "pages/oprah/oprah"
+			},
+			{
+				"text": "我的",
+				"iconPath": "static/images/user_tabbar.png",
+				"selectedIconPath": "static/images/user_tabbarX.png",
+				"pagePath": "pages/user/user"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

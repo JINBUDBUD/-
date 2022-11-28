@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "luch-request": "^3.0.7",
+    "moment": "^2.29.2",
+    "uview-ui": "^1.8.4"
+  },
+  "devDependencies": {
+    "js-md5": "^0.7.3"
+  }
+}
