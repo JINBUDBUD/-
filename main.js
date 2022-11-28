@@ -5,6 +5,9 @@ import Md5 from 'js-md5'
 import Vue from 'vue';
 import uView from "uview-ui";
 import tool from '@/utils/tool.js';
+import "style/base.scss";
+
+
 
 Vue.prototype.$tool = tool;
 Vue.prototype.$md5 = Md5;
